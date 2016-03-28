@@ -2,6 +2,8 @@
 
 Serverless Framework (BETA)
 =================================
+[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+[![npm version](https://badge.fury.io/js/serverless.svg)](https://badge.fury.io/js/serverless)
 
 Serverless is the application framework for building web, mobile and IoT applications exclusively on Amazon Web Services' Lambda and API Gateway. It's a command line interface that helps you build and maintain serverless apps across teams of any size.  It's also completely extensible via Plugins.  We believe AWS Lambda will be the focal point of the AWS cloud, and the Serverless Framework interprets AWS from Lambda's perspective.
 
@@ -69,14 +71,15 @@ Refer to our [documentation](http://docs.serverless.com) for more info.  Enjoy!
 Serverless Projects are shareable and installable.  You can publish them to npm and install them via the Serverless Framework CLI by using `$ serverless project install <project-name>`
 * [serverless-starter](https://github.com/serverless/serverless-starter) - A simple boilerplate for new projects with a few architectural options.
 * [serverless-graphql-blog](https://github.com/serverless/serverless-graphql-blog) - A blog boilerplate that leverages GraphQL in front of DynamoDB to offer a minimal REST API featuring only 1 endpoint.
+* [serverless-authentication-boilerplate](https://github.com/laardee/serverless-authentication-boilerplate) - A generic authentication boilerplate for Serverless framework 
 
 ## Plugins
 Serverless is composed of Plugins.  A group of default Plugins ship with the Framework, and here are some others you can add to improve/help your workflow:
-* [Plugin Boilerplate](https://github.com/serverless/serverless-plugin-boilerplate) - Make a Serverless Plugin with this simple boilerplate.
+* [Meta Sync](https://github.com/serverless/serverless-meta-sync) - Securely sync your the variables in your project's `_meta/variables` across your team.
 * [Serve](https://github.com/Nopik/serverless-serve) - Simulate API Gateway locally, so all function calls can be run via localhost.
 * [Offline](https://github.com/dherault/serverless-offline) - An alternative to the Serve plugin.
 * [Alerting](https://github.com/martinlindenberg/serverless-plugin-alerting) - This Plugin adds Cloudwatch Alarms with SNS notifications for your Lambda functions.
-* [Optimizer](https://github.com/serverless/serverless-optimizer-plugin) - Optimizes your code for performance in Lambda.
+* [Optimizer](https://github.com/serverless/serverless-optimizer-plugin) - Optimizes your code for performance in Lambda. Supports coffeeify, babelify and other transforms
 * [CORS](https://github.com/joostfarla/serverless-cors-plugin) - Adds support for CORS (Cross-origin resource sharing).
 * [CloudFormation Validator](https://github.com/tmilewski/serverless-resources-validation-plugin) - Adds support for validating your CloudFormation template.
 * [Prune](https://github.com/Nopik/serverless-lambda-prune-plugin) - Delete old versions of AWS lambdas from your account so that you don't exceed the code storage limit.
@@ -98,7 +101,9 @@ We love our contributors! If you'd like to contribute to the project, feel free 
 ## Consultants
 These consultants use the Serverless Framework and can help you build your serverless projects.
 * [Trek10](https://www.trek10.com/)
-* [Parallax](https://parall.ax/) – they also built the [David Guetta Campaign](http://highscalability.com/blog/2016/1/20/building-an-infinitely-scaleable-online-recording-campaign-f.html)
+* [Parallax](https://parall.ax/) – they also built the [David Guetta Campaign](https://serverlesscode.com/post/david-guetta-online-recording-with-lambda/)
 * [Just Serverless](http://justserverless.com)
 * [SC5 Online](https://sc5.io)
 * [Carrot Creative](https://carrot.is)
+* [microapps](http://microapps.com)
+* [Apiwise](http://www.apiwise.nl)
